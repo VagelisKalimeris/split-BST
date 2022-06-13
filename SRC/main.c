@@ -39,15 +39,6 @@ void split_BST(struct tree_node *initial_tree, int key, struct tree_node
 }
 
 /**
- * Function: main
- * ----------------------------------------------------------------------------
- *    For testing purposes. It creates an initial test tree and splits it to
- *    two. It also prints all 3 trees by levels, for visual inspection.
- *
- * Returns: 0 upon success
- */
-
-/**
  * The main function is for testing purposes. It creates an initial test
  * tree and splits it to two. It also prints all 3 trees by levels, for visual
  * inspection.
