@@ -28,20 +28,17 @@ The original tree is the following and the key with which we are asked to
 split it is *18*.
 
 ![](IMAGES/tree.png)
-
 ---
 
 So the way the original tree should be dissected is as follows, with red keys
 being larger than the split key, and yellow keys smaller.
 
 ![](IMAGES/tree_sides.png)
-
 ---
 
 Our algorithm, as seen in the execution, results in the following two new trees.
 
 #### Less keys tree
-
 
 ![](IMAGES/less_tree.png)
 
