@@ -19,6 +19,20 @@ web, and found only iterative solutions, which I did not like.
 ---
 ---
 
+### Execution
+
+Follow the steps:
+
+    % cd to/code/dir
+    % mkdir build_dir_name
+    % cmake -S . -B build_dir_name
+    % cmake --build build_dir_name
+    % build_dir_name/splitBST
+
+---
+---
+---
+
 ### Example in main.c
 
 In the main() function, we have an example tree set up. We can describe its 
@@ -68,18 +82,3 @@ The split is evident in main()'s output:
     Level 1: {23}
     Level 2: {19}{25}
     Level 3: {18}{21}{24}{29}
-
----
----
----
-
-### Execution
-
-Follow the steps:
-
-    % cd to/code/dir
-    % mkdir build_dir_name
-    % cmake -S . -B build_dir_name
-    % cmake --build build_dir_name
-    % build_dir_name/splitBST
-
