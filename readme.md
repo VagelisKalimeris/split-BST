@@ -9,7 +9,7 @@ dissect the tree to two new ones. We want the first to keep all the original
 tree's keys that are less than the user keys. We want the second to keep the 
 remaining keys (more or equal).
 
-This elegant recursive, *O(log n)* algorithm, implemented in **C** language, 
+This elegant recursive, *O(log h)* algorithm, implemented in **C** language, 
 existing in **split_BST** function, solves this problem.
 
 I wrote this algorithm in 2019 for a CS assignment. Back then I searched the
