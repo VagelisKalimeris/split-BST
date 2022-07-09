@@ -5,12 +5,12 @@
 ### Overview
 
 Given an initial binary search tree, and a user selected key, we are asked to 
-dissect the tree to two new ones. We want the first to keep all the original 
-tree's keys that are less than the user keys. We want the second to keep the 
-remaining keys (more or equal).
+dissect the original tree into two new ones. We want the first new tree to keep 
+all of the original tree's keys that are less than the user key. We want the 
+second new tree to keep the remaining original keys (more or equal).
 
 This elegant recursive, *O(log h)* algorithm, implemented in **C** language, 
-existing in **split_BST** function, solves this problem.
+existing in [main.c](SRC/main.c) **split_BST** function, solves this problem.
 
 I wrote this algorithm in 2019 for a CS assignment. Back then I searched the
 web, and found only iterative solutions, which I did not like.
