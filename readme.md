@@ -8,7 +8,7 @@ Given an initial binary search tree, and a user selected key, we are asked to
 dissect the original tree into two new ones. We want the first new tree to keep 
 all of the original tree's keys that are less than the user key. We want the 
 second new tree to keep the remaining original keys (more or equal). Finaly we
-want the new trees to **retain the original tree's node ordering**.
+want both new trees to **retain the original tree's node ordering**.
 
 This elegant recursive, *O(log h)* algorithm, implemented in **C** language, 
 existing in [main.c](SRC/main.c) **split_BST** function, solves this problem.
